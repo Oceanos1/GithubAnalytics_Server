@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "node app/app.js",
+    "test": "./node_modules/grunt-cli/bin/grunt"
+  },
+  "name": "github_analytics_server",
+  "description": "This is the server for the github analytics project",
+  "version": "0.0.0",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "cookie-parser": "^1.4.3",
+    "eslint": "^4.8.0",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-eslint": "^20.1.0",
+    "grunt-mocha-test": "^0.13.3",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
